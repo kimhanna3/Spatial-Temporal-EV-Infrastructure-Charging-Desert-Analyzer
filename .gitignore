@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+build/
+dist/
+*.egg-info/
+.eggs/
+
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Testing / coverage
+.pytest_cache/
+.coverage
+htmlcov/
+.cache/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Geospatial scratch / data caches
+*.gpkg
+*.shp
+*.geojson.tmp
+
+# IDE / OS
+.vscode/
+.idea/
+.DS_Store
+
+# Type checkers
+.mypy_cache/
+.ruff_cache/
